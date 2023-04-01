@@ -7,7 +7,47 @@
 	"item": [
 		{
 			"name": "createBoard",
-			"_postman_id": "073e97b3-8f76-43b8-a239-f51c6060e8a6",
+			"id": "073e97b3-8f76-43b8-a239-f51c6060e8a6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Tablica API2&key=a340867f860d6f19675e33c85fbd789a&token=ATTA987f3d52aab025e7a311bd123b085319d2eb96f97b63896e010236306eae569bBC405842",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Tablica API2"
+						},
+						{
+							"key": "key",
+							"value": "a340867f860d6f19675e33c85fbd789a"
+						},
+						{
+							"key": "token",
+							"value": "ATTA987f3d52aab025e7a311bd123b085319d2eb96f97b63896e010236306eae569bBC405842"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createBoard Copy",
+			"id": "1aedda91-d14a-45e2-a489-5dc48e2a226c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +87,7 @@
 		},
 		{
 			"name": "createNewList",
-			"_postman_id": "6e593ea2-32b0-4f64-bd90-07cf97a6725f",
+			"id": "6e593ea2-32b0-4f64-bd90-07cf97a6725f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -90,7 +130,7 @@
 		},
 		{
 			"name": "createCard",
-			"_postman_id": "baffd870-9691-442c-ac52-947367661d41",
+			"id": "baffd870-9691-442c-ac52-947367661d41",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -126,7 +166,7 @@
 		},
 		{
 			"name": "createNewListInProgress",
-			"_postman_id": "264dbb0c-cd79-4eaf-b196-4585ef4889f8",
+			"id": "264dbb0c-cd79-4eaf-b196-4585ef4889f8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -165,7 +205,7 @@
 		},
 		{
 			"name": "createNewListDone",
-			"_postman_id": "1217b53f-9fe4-4e86-897d-eea7a61b238c",
+			"id": "1217b53f-9fe4-4e86-897d-eea7a61b238c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -204,7 +244,7 @@
 		},
 		{
 			"name": "updateBoard",
-			"_postman_id": "c9091608-8f41-4584-b125-69e8a1c8a48e",
+			"id": "c9091608-8f41-4584-b125-69e8a1c8a48e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -240,7 +280,7 @@
 		},
 		{
 			"name": "getMember",
-			"_postman_id": "ff03a046-5346-4c8f-ba7b-3e7cf106be83",
+			"id": "ff03a046-5346-4c8f-ba7b-3e7cf106be83",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -248,6 +288,18 @@
 				"method": "GET",
 				"header": [],
 				"url": "{{url}}/members/4e730b95a8979b0000464744"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "175fd79c-bc0b-4bfc-9397-41cde35cb840",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
