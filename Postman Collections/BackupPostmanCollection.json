@@ -283,19 +283,6 @@
 			"response": []
 		},
 		{
-			"name": "getMember",
-			"id": "ff03a046-5346-4c8f-ba7b-3e7cf106be83",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{url}}/members/4e730b95a8979b0000464744"
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "175fd79c-bc0b-4bfc-9397-41cde35cb840",
 			"protocolProfileBehavior": {
