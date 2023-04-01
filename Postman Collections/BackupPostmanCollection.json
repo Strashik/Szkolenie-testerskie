@@ -46,46 +46,6 @@
 			"response": []
 		},
 		{
-			"name": "createBoard Copy",
-			"id": "1aedda91-d14a-45e2-a489-5dc48e2a226c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/boards/?name=Tablica API2&key=a340867f860d6f19675e33c85fbd789a&token=ATTA987f3d52aab025e7a311bd123b085319d2eb96f97b63896e010236306eae569bBC405842",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"boards",
-						""
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Tablica API2"
-						},
-						{
-							"key": "key",
-							"value": "a340867f860d6f19675e33c85fbd789a"
-						},
-						{
-							"key": "token",
-							"value": "ATTA987f3d52aab025e7a311bd123b085319d2eb96f97b63896e010236306eae569bBC405842"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "createNewList",
 			"id": "6e593ea2-32b0-4f64-bd90-07cf97a6725f",
 			"protocolProfileBehavior": {
