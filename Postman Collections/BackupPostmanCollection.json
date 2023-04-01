@@ -129,45 +129,6 @@
 			"response": []
 		},
 		{
-			"name": "createNewListInProgress",
-			"id": "264dbb0c-cd79-4eaf-b196-4585ef4889f8",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "{{url}}/list?name=In Progress&idBoard=641ffac6eba89fc2df875e18&key={{key}}&token={{token}}",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"list"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "In Progress"
-						},
-						{
-							"key": "idBoard",
-							"value": "641ffac6eba89fc2df875e18"
-						},
-						{
-							"key": "key",
-							"value": "{{key}}"
-						},
-						{
-							"key": "token",
-							"value": "{{token}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "createNewListDone",
 			"id": "1217b53f-9fe4-4e86-897d-eea7a61b238c",
 			"protocolProfileBehavior": {
