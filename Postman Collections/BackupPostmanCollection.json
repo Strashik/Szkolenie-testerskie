@@ -129,45 +129,6 @@
 			"response": []
 		},
 		{
-			"name": "createNewListDone",
-			"id": "1217b53f-9fe4-4e86-897d-eea7a61b238c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "{{url}}/list?name=Done&idBoard=641ffac6eba89fc2df875e18&key={{key}}&token={{token}}",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"list"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Done"
-						},
-						{
-							"key": "idBoard",
-							"value": "641ffac6eba89fc2df875e18"
-						},
-						{
-							"key": "key",
-							"value": "{{key}}"
-						},
-						{
-							"key": "token",
-							"value": "{{token}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "175fd79c-bc0b-4bfc-9397-41cde35cb840",
 			"protocolProfileBehavior": {
