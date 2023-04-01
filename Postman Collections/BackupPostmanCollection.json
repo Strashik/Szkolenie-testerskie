@@ -303,7 +303,26 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{url}}lists/6428106d08f23f05df7c3ed3?key={{key}}&token={{token}}",
+					"host": [
+						"{{url}}lists"
+					],
+					"path": [
+						"6428106d08f23f05df7c3ed3"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
 			},
 			"response": []
 		}
