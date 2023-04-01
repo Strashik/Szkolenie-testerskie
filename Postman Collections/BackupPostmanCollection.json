@@ -166,8 +166,32 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}cards?idList=6428112cd9ec9aa72f4ba710&key={{key}}&token={{token}}&name=testowy task",
+					"host": [
+						"{{url}}cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "6428112cd9ec9aa72f4ba710"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "testowy task"
+						}
+					]
+				}
 			},
 			"response": []
 		}
