@@ -138,9 +138,13 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{url}}cards?idList=6420004575869ad7a4c4f925&name=Kolejna karta na liście&key={{key}}&token={{token}}",
+					"raw": "{{url}}/1/cards?idList=6420004575869ad7a4c4f925&name=Kolejna karta na liście&key={{key}}&token={{token}}",
 					"host": [
-						"{{url}}cards"
+						"{{url}}"
+					],
+					"path": [
+						"1",
+						"cards"
 					],
 					"query": [
 						{
