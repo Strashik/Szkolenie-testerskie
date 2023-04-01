@@ -247,42 +247,6 @@
 			"response": []
 		},
 		{
-			"name": "updateBoard",
-			"id": "c9091608-8f41-4584-b125-69e8a1c8a48e",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"url": {
-					"raw": "{{url}}/boards/{{idBoard}}?desc=nowe description do boarda&key={{key}}&token={{token}}",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"boards",
-						"{{idBoard}}"
-					],
-					"query": [
-						{
-							"key": "desc",
-							"value": "nowe description do boarda"
-						},
-						{
-							"key": "key",
-							"value": "{{key}}"
-						},
-						{
-							"key": "token",
-							"value": "{{token}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "175fd79c-bc0b-4bfc-9397-41cde35cb840",
 			"protocolProfileBehavior": {
